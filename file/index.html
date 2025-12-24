@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portfolio | Rikko Seno Pangestu</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-slate-950 text-slate-100 overflow-x-hidden">
+    <!-- HERO -->
+    <section class="min-h-screen flex items-center justify-center px-4 relative">
+      <img
+        src="AI.png"
+        class="absolute inset-0 w-full h-full object-cover opacity-30"
+      />
+      <div class="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-indigo-900/70 to-purple-900/80"></div>
+
+      <div class="text-center px-6 relative z-10">
+        <img
+          src="profile.jpeg"
+          class="w-40 h-40 mx-auto mb-6 rounded-full border-4 border-white shadow-xl object-cover"
+        />
+
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-2">Rikko Seno Pangestu</h1>
+
+        <p class="text-base sm:text-lg md:text-2xl mb-4">IT Support • Helpdesk • Technical Support</p>
+
+        <div class="flex justify-center gap-4">
+          <a
+            href="#projects"
+            class="bg-white text-slate-900 px-6 py-3 rounded-full font-semibold hover:bg-slate-200 transition"
+          >
+            Pengalaman
+          </a>
+          <a
+            href="#contact"
+            class="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-slate-900 transition"
+          >
+            Kontak
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section
+      id="about"
+      class="py-20 px-6 max-w-5xl mx-auto"
+    >
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <img
+          src="no0bg.png"
+          class="rounded-2xl shadow-lg"
+        />
+
+        <div>
+          <h2 class="text-3xl font-bold mb-4 text-indigo-400">Tentang Saya</h2>
+
+          <p class="text-slate-300 leading-relaxed mb-6 text-justify">
+            Saya merupakan lulusan baru Program Studi Informatika Universitas Nusa Mandiri yang memiliki semangat belajar tinggi dan minat besar di bidang teknologi informasi. Terbiasa bekerja secara mandiri maupun dalam tim, serta memiliki
+            tanggung jawab yang baik dalam menyelesaikan setiap tugas dan pekerjaan. Selama masa studi, saya memiliki pengalaman dalam berbagai kegiatan organisasi dan proyek, yang membantu saya mengembangkan kemampuan komunikasi, kerja
+            sama tim, serta pemecahan masalah. Saya juga terbiasa menghadapi tantangan teknis dan mencari solusi secara sistematis. Saat ini, saya berfokus untuk mengembangkan kemampuan sebagai IT Support dan Technical Support, khususnya
+            dalam instalasi, pemeliharaan, dan troubleshooting hardware, software, jaringan, serta sistem informasi, dengan tujuan memberikan dukungan teknis yang optimal dan berkontribusi positif di lingkungan kerja.
+          </p>
+
+          <!-- BIODATA -->
+          <div class="grid sm:grid-cols-2 gap-4 text-sm text-slate-300">
+            <div>
+              <span class="text-slate-400">Nama</span>
+              <p class="font-semibold">Rikko Seno Pangestu</p>
+            </div>
+            <div>
+              <span class="text-slate-400">Email</span>
+              <p class="font-semibold text-indigo-400">riksp24@gmail.com</p>
+            </div>
+            <div>
+              <span class="text-slate-400">No. HP</span>
+              <p class="font-semibold">083891673879</p>
+            </div>
+            <div>
+              <span class="text-slate-400">Usia</span>
+              <p class="font-semibold">22 Tahun</p>
+            </div>
+            <div>
+              <span class="text-slate-400">Lokasi</span>
+              <p class="font-semibold">Jakarta Pusat</p>
+            </div>
+            <div>
+              <span class="text-slate-400">Pengalaman</span>
+              <p class="font-semibold">&lt; 1 Tahun</p>
+            </div>
+          </div>
+
+          <!-- BUTTON -->
+          <div class="flex flex-col sm:flex-row gap-4 mt-8">
+            <a
+              href="rikko-seno-cv.pdf"
+              download
+              class="bg-indigo-600 hover:bg-indigo-700 transition px-6 py-3 rounded-lg font-semibold text-center"
+            >
+              Download CV
+            </a>
+            <a
+              href="#contact"
+              class="border border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white transition px-6 py-3 rounded-lg font-semibold text-center"
+            >
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section
+      id="projects"
+      class="py-20 px-6 bg-slate-900"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-indigo-400">Pengalaman Kerja</h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- CARD 1 -->
+          <div class="bg-slate-800 rounded-2xl overflow-hidden hover:-translate-y-1 transition shadow-lg">
+            <!-- SLIDER -->
+            <div class="relative w-full h-44 overflow-hidden slider">
+              <div class="flex h-full transition-transform duration-500 slider-track">
+                <img
+                  src="r1.jpeg"
+                  alt="Yarsi 1"
+                  class="w-full h-44 object-cover flex-shrink-0"
+                />
+                <img
+                  src="r2.jpeg"
+                  alt="Yarsi 2"
+                  class="w-full h-44 object-cover flex-shrink-0"
+                />
+                <img
+                  src="r3.jpeg"
+                  alt="Yarsi 3"
+                  class="w-full h-44 object-cover flex-shrink-0"
+                />
+              </div>
+
+              <button class="prev absolute left-2 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 py-1 rounded">‹</button>
+              <button class="next absolute right-2 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 py-1 rounded">›</button>
+            </div>
+
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-1">
+                <p class="font-semibold text-indigo-300">Rumah Sakit Yarsi</p>
+                <span class="text-sm text-slate-400">Okt 2024 – Des 2024</span>
+              </div>
+
+              <h3 class="text-xl font-semibold mb-3">Magang - IT Support</h3>
+
+              <ul class="list-disc list-inside text-slate-400 text-sm space-y-1 text-justify">
+                <li>Troubleshooting PC, printer, dan jaringan LAN/Wi-Fi</li>
+                <li>Pemeliharaan rutin perangkat komputer</li>
+                <li>Konfigurasi jaringan Cisco</li>
+                <li>Pembaruan sistem untuk keamanan dan stabilitas</li>
+                <li>Manajemen jaringan Wi-Fi menggunakan Mikrotik</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="bg-slate-800 rounded-2xl overflow-hidden hover:-translate-y-1 transition shadow-lg">
+            <!-- SLIDER -->
+            <div class="relative w-full h-44 overflow-hidden slider">
+              <div class="flex h-full transition-transform duration-500 slider-track">
+                <img
+                  src="ex1.jpeg"
+                  alt="JIExpo 1"
+                  class="w-full h-44 object-cover flex-shrink-0"
+                />
+                <img
+                  src="ex2.jpeg"
+                  alt="JIExpo 2"
+                  class="w-full h-44 object-cover flex-shrink-0"
+                />
+                <img
+                  src="ex3.jpeg"
+                  alt="JIExpo 3"
+                  class="w-full h-44 object-cover flex-shrink-0"
+                />
+              </div>
+
+              <button class="prev absolute left-2 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 py-1 rounded">‹</button>
+              <button class="next absolute right-2 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 py-1 rounded">›</button>
+            </div>
+
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-1">
+                <p class="font-semibold text-indigo-300">PT Jakarta International Expo</p>
+                <span class="text-sm text-slate-400">Jun 2025 – Jul 2025</span>
+              </div>
+
+              <h3 class="text-xl font-semibold mb-3">Event Crew - IT Support</h3>
+
+              <ul class="list-disc list-inside text-slate-400 text-sm space-y-1 text-justify">
+                <li>Setup PC untuk loket dan gate masuk</li>
+                <li>Penarikan kabel LAN & crimping RJ45</li>
+                <li>Konfigurasi jaringan operasional</li>
+                <li>Pemasangan CCTV</li>
+                <li>Troubleshooting perangkat & jaringan</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.querySelectorAll('.slider').forEach((slider) => {
+        const track = slider.querySelector('.slider-track');
+        const slides = track.children;
+        let index = 0;
+
+        function updateSlide() {
+          const width = slider.clientWidth;
+          track.style.transform = `translateX(-${index * width}px)`;
+        }
+
+        slider.querySelector('.next').addEventListener('click', () => {
+          index = (index + 1) % slides.length;
+          updateSlide();
+        });
+
+        slider.querySelector('.prev').addEventListener('click', () => {
+          index = (index - 1 + slides.length) % slides.length;
+          updateSlide();
+        });
+
+        window.addEventListener('resize', updateSlide);
+      });
+    </script>
+
+    <!-- SKILLS & TOOLS -->
+    <section
+      id="skills"
+      class="py-20 px-6 bg-slate-950"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-indigo-400">Skills & Tools</h2>
+
+        <div class="grid md:grid-cols-2 gap-10">
+          <!-- SKILLS -->
+          <div class="bg-slate-900 rounded-2xl p-8">
+            <h3 class="text-xl font-semibold mb-6">Keahlian</h3>
+
+            <div class="space-y-5">
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="text-sm">Troubleshooting Hardware & Software</span>
+                  <span class="text-sm text-slate-400">90%</span>
+                </div>
+                <div class="w-full bg-slate-800 rounded-full h-2">
+                  <div class="bg-indigo-500 h-2 rounded-full w-[90%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="text-sm">IT Support & Helpdesk</span>
+                  <span class="text-sm text-slate-400">85%</span>
+                </div>
+                <div class="w-full bg-slate-800 rounded-full h-2">
+                  <div class="bg-indigo-500 h-2 rounded-full w-[85%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="text-sm">Jaringan LAN & WiFi</span>
+                  <span class="text-sm text-slate-400">80%</span>
+                </div>
+                <div class="w-full bg-slate-800 rounded-full h-2">
+                  <div class="bg-indigo-500 h-2 rounded-full w-[80%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="text-sm">Manajemen Sistem Informasi</span>
+                  <span class="text-sm text-slate-400">75%</span>
+                </div>
+                <div class="w-full bg-slate-800 rounded-full h-2">
+                  <div class="bg-indigo-500 h-2 rounded-full w-[75%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TOOLS -->
+          <div class="bg-slate-900 rounded-2xl p-8">
+            <h3 class="text-xl font-semibold mb-6">Tools & Teknologi</h3>
+
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Windows</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Linux</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Microsoft Office</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Active Directory</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Remote Desktop</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">AnyDesk</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">TeamViewer</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">LAN / TCP-IP</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Router & Switch</span>
+              <span class="px-4 py-2 rounded-full bg-slate-800 text-sm">Printer & Scanner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATE -->
+    <section
+      id="certificate"
+      class="py-20 px-6 bg-slate-950"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-indigo-400">Sertifikat & Pelatihan</h2>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- CERT 1 -->
+          <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition shadow-lg">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-indigo-600/20 text-xl">📄</div>
+              <h3 class="font-semibold text-lg">CCNAv7: Introduction to Networks</h3>
+            </div>
+
+            <p class="text-slate-400 text-sm text-justify mb-5">
+              Sertifikat ini menunjukkan pemahaman saya terhadap dasar-dasar jaringan komputer, termasuk konsep jaringan, arsitektur LAN dan WAN, serta cara kerja komunikasi data. Melalui program ini, saya mempelajari pengalamatan IP,
+              subnetting, serta dasar konfigurasi dan troubleshooting jaringan menggunakan perangkat Cisco. Sertifikat ini mendukung kemampuan saya dalam menangani instalasi, konfigurasi, dan pemeliharaan jaringan pada lingkungan kerja.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-xs text-slate-500"> Cisco Networking Academy </span>
+
+              <a
+                href="ccna.pdf"
+                target="_blank"
+                class="text-sm text-indigo-400 hover:underline"
+              >
+                Lihat PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- CERT 2 -->
+          <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition shadow-lg">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-indigo-600/20 text-xl">📄</div>
+              <h3 class="font-semibold text-lg">Cisco Dasar</h3>
+            </div>
+
+            <p class="text-slate-400 text-sm text-justify mb-5">
+              Sertifikat ini membuktikan pemahaman saya terhadap konsep dasar jaringan komputer menggunakan perangkat Cisco. Melalui pelatihan ini, saya mempelajari fundamental jaringan seperti pengenalan topologi jaringan, perangkat
+              jaringan (router, switch), pengalamatan IP, subnetting, serta dasar konfigurasi jaringan. Selain itu, saya juga dibekali kemampuan dasar troubleshooting jaringan untuk mengidentifikasi dan menyelesaikan permasalahan
+              konektivitas. Sertifikat ini mendukung kompetensi saya dalam instalasi, konfigurasi, dan pemeliharaan jaringan LAN/Wi-Fi di lingkungan kerja.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-xs text-slate-500"> ID - Networkers </span>
+
+              <a
+                href="id-network.pdf"
+                target="_blank"
+                class="text-sm text-indigo-400 hover:underline"
+              >
+                Lihat PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- CERT 3 -->
+          <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition shadow-lg">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-indigo-600/20 text-xl">📄</div>
+              <h3 class="font-semibold text-lg">Cyber Threat Management</h3>
+            </div>
+
+            <p class="text-slate-400 text-sm text-justify mb-5">
+              Sertifikat ini membekali pemahaman dasar mengenai keamanan siber, jenis ancaman digital, serta upaya pencegahan dan penanganannya. Materi mencakup keamanan sistem dan jaringan untuk menjaga data serta meminimalkan risiko
+              gangguan keamanan di lingkungan kerja.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-xs text-slate-500"> Cisco Networking Academy </span>
+
+              <a
+                href="ser3.pdf"
+                target="_blank"
+                class="text-sm text-indigo-400 hover:underline"
+              >
+                Lihat PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- CERT 4 -->
+          <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition shadow-lg">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-indigo-600/20 text-xl">📄</div>
+              <h3 class="font-semibold text-lg">Introduction to Cybersecurity</h3>
+            </div>
+
+            <p class="text-slate-400 text-sm text-justify mb-5">
+              Sertifikat ini memberikan pemahaman dasar mengenai keamanan siber, termasuk jenis ancaman digital, risiko keamanan, serta pentingnya perlindungan data dan sistem. Materi mencakup konsep dasar keamanan jaringan dan kesadaran
+              keamanan dalam penggunaan teknologi informasi.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-xs text-slate-500"> Cisco Networking Academy </span>
+
+              <a
+                href="ser4.pdf"
+                target="_blank"
+                class="text-sm text-indigo-400 hover:underline"
+              >
+                Lihat PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section
+      id="contact"
+      class="py-20 px-6 bg-slate-900"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-indigo-400 text-center">Kontak Saya</h2>
+
+        <div class="grid md:grid-cols-2 gap-10">
+          <!-- INFORMASI KONTAK (KIRI) -->
+          <div class="bg-slate-800 rounded-2xl p-8">
+            <h3 class="text-xl font-semibold mb-3">Informasi Kontak</h3>
+
+            <p class="text-slate-400 text-sm mb-8 leading-relaxed">Jangan ragu untuk menghubungi saya apabila Anda membutuhkan dukungan IT, bantuan teknis, maupun ingin berdiskusi terkait peluang kerja dan proyek teknologi.</p>
+
+            <div class="space-y-5 text-slate-300 text-sm">
+              <div>
+                <p class="text-slate-400">Nama</p>
+                <p class="font-semibold">Rikko Seno Pangestu</p>
+              </div>
+
+              <div>
+                <p class="text-slate-400">Email</p>
+                <p class="font-semibold text-indigo-400">riksp24@gmail.com</p>
+              </div>
+
+              <div>
+                <p class="text-slate-400">No. HP / WhatsApp</p>
+                <p class="font-semibold">083891673879</p>
+              </div>
+
+              <div>
+                <p class="text-slate-400">Lokasi</p>
+                <p class="font-semibold">Jakarta Pusat, Indonesia</p>
+              </div>
+
+              <!-- SOSIAL MEDIA DENGAN LOGO -->
+              <div>
+                <p class="text-slate-400 mb-3">Sosial Media</p>
+
+                <div class="flex gap-4">
+                  <!-- GitHub -->
+                  <a
+                    href="https://github.com/rrzyxkoo"
+                    target="_blank"
+                    class="w-11 h-11 flex items-center justify-center rounded-full bg-slate-900 border border-slate-700 hover:bg-indigo-600 transition"
+                  >
+                    <svg
+                      class="w-5 h-5 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.29 9.42
+                    7.86 10.95.58.11.79-.25.79-.56v-2.02
+                    c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33
+                    -1.29-1.69-1.29-1.69-1.05-.72.08-.71.08-.71
+                    1.16.08 1.77 1.19 1.77 1.19 1.03 1.77
+                    2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55
+                    -2.55-.29-5.23-1.28-5.23-5.69
+                    0-1.26.45-2.29 1.19-3.1
+                    -.12-.29-.52-1.47.11-3.07
+                    0 0 .97-.31 3.18 1.18
+                    a11.1 11.1 0 0 1 2.9-.39
+                    c.98 0 1.97.13 2.9.39
+                    2.21-1.49 3.18-1.18 3.18-1.18
+                    .63 1.6.23 2.78.11 3.07
+                    .74.81 1.19 1.84 1.19 3.1
+                    0 4.42-2.69 5.39-5.25 5.67
+                    .41.36.77 1.06.77 2.14v3.17
+                    c0 .31.21.68.8.56A11.52 11.52 0 0 0
+                    23.5 12C23.5 5.73 18.27.5 12 .5z"
+                      />
+                    </svg>
+                  </a>
+
+                  <!-- LinkedIn -->
+                  <a
+                    href="https://linkedin.com/in/rikko-seno-pangestu24"
+                    target="_blank"
+                    class="w-11 h-11 flex items-center justify-center rounded-full bg-slate-900 border border-slate-700 hover:bg-indigo-600 transition"
+                  >
+                    <svg
+                      class="w-5 h-5 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20.45 20.45h-3.56v-5.39
+                    c0-1.29-.03-2.95-1.8-2.95
+                    -1.8 0-2.07 1.4-2.07 2.85v5.49
+                    h-3.56V9h3.42v1.56h.05
+                    c.48-.9 1.64-1.85 3.37-1.85
+                    3.6 0 4.26 2.37 4.26 5.46v6.28z
+                    M5.34 7.43a2.06 2.06 0 1 1 0-4.12
+                    2.06 2.06 0 0 1 0 4.12z
+                    M3.56 20.45h3.56V9H3.56v11.45z"
+                      />
+                    </svg>
+                  </a>
+
+                  <!-- Instagram -->
+                  <a
+                    href="https://instagram.com/riksp24"
+                    target="_blank"
+                    class="w-11 h-11 flex items-center justify-center rounded-full bg-slate-900 border border-slate-700 hover:bg-indigo-600 transition"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-5 h-5 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="20"
+                        rx="5"
+                        ry="5"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="3.5"
+                      />
+                      <circle
+                        cx="17.5"
+                        cy="6.5"
+                        r="1"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FORM KIRIM PESAN (KANAN) -->
+          <div class="bg-slate-800 rounded-2xl p-8">
+            <h3 class="text-xl font-semibold mb-6">Kirim Pesan</h3>
+
+            <form class="space-y-5">
+              <input
+                type="text"
+                placeholder="Nama Lengkap"
+                class="w-full px-4 py-3 rounded bg-slate-900 border border-slate-700 focus:outline-none focus:border-indigo-500"
+              />
+
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-full px-4 py-3 rounded bg-slate-900 border border-slate-700 focus:outline-none focus:border-indigo-500"
+              />
+
+              <textarea
+                rows="5"
+                placeholder="Tulis pesan Anda..."
+                class="w-full px-4 py-3 rounded bg-slate-900 border border-slate-700 focus:outline-none focus:border-indigo-500"
+              ></textarea>
+
+              <button
+                type="submit"
+                class="w-full bg-indigo-600 hover:bg-indigo-700 transition py-3 rounded font-semibold"
+              >
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-6 text-center text-slate-500">© 2025 Rikko Seno Pangestu</footer>
+  </body>
+</html>
